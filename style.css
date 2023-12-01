@@ -633,6 +633,22 @@
   .team-tabs-content {
       width: 53%;
   }
+  .logo-wrapper {
+    width: 100%;
+    grid-column-gap: 40px;
+    background-color: var(--white);
+    border-radius: 10px;
+    justify-content: space-between;
+    padding: 20px 25px;
+    display: flex;
+    box-shadow: 0 -9px 40px rgba(0, 0, 0, .05);
+}
+
+  .logo-image {
+      width: 13%;
+      height: 41px;
+      object-fit: contain;
+  }
 
   .w-tab-content {
       display: block;
@@ -785,6 +801,10 @@
       height: 300px;
       object-fit: cover;
   }
+  
+  .blog-image:hover {
+    scale: 1.2;
+}
 
   .blog-info-wrapper {
       z-index: 2;
@@ -1202,9 +1222,11 @@
       font-weight: 700;
       display: inline-block;
   }
+
   .service {
-    box-shadow: none !important;
-}
+      box-shadow: none !important;
+  }
+
   @media screen and (max-width: 1279px) {
       .numbers-wrapper {
           bottom: 20px;
@@ -1221,7 +1243,7 @@
       }
   }
 
-  
+
 
   @media screen and (max-width: 991px) {
       .sec2-card {
