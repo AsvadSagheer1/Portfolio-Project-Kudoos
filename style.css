@@ -7,6 +7,9 @@
       --primary: #af71ff;
       --white: #fff;
   }
+html{
+    scroll-behavior: smooth;
+}
 
   * {
       box-sizing: border-box;
