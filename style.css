@@ -35,7 +35,9 @@ html{
   summary {
       display: block;
   }
-
+.img-1{
+    background-image: linear-gradient(rgba(175, 113, 255, .3), rgba(72, 178, 255, .3)), linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5));
+}
   .flex-horizontal-space-between.mobile-wrap-center,
   .flex-horizontal-space-between.tablet-wrap-center {
       align-items: center;
@@ -44,7 +46,9 @@ html{
   .w-350 {
       max-width: 350px;
   }
-
+.w-500{
+    font-size: 18px;
+}
   .flex-horizontal-space-between {
       justify-content: space-between;
       display: flex;
